@@ -13,5 +13,6 @@ spring:
 # Other configurations as needed
 
 alphaVantage:
-  apiKey: AN1K41U74AOV5FHA
+  # get the apiKey from alphaVantage portal
+  apiKey: ***** 
 
