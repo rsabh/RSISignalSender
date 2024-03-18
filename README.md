@@ -21,6 +21,9 @@ This Spring Boot application provides an API to fetch the latest weekly Relative
 
 ### Running the Application
 - To run the application, use the following Maven command:
+  ```
+  mvn spring-boot:run
+  ```
 - Alternatively, run the application from your IDE using the main class `RsiSignalSenderApplication.java`.
 
 ## API Usage
@@ -36,6 +39,10 @@ This Spring Boot application provides an API to fetch the latest weekly Relative
 
 ### Testing the API
 - You can test the API using tools like Postman or curl:
+  ```
+  curl http://localhost:8080/rsi/AMZN
+  ```
+
 
 ## Contributing
 Contributions to this project are welcome. Please fork the repository and submit a pull request for any enhancements or bug fixes.
