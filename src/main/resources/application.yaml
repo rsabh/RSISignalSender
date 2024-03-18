@@ -1,0 +1,17 @@
+server:
+  port: 24001
+spring:
+  application:
+    name: RSISignalSender
+# Email Configuration
+  mail:
+    host: smtp.example.com
+    port: 587
+    username: myemail@example.com
+    password: mypassword
+
+# Other configurations as needed
+
+alphaVantage:
+  apiKey: AN1K41U74AOV5FHA
+
